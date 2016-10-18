@@ -1,0 +1,17 @@
+.nav-green-hover > * {
+	transition: color 0.8s ease, background-color 0.9s ease;
+}
+
+.nav-green-hover > *:hover {
+	color: #2E7D32;
+	background-color: #1F1F1F;
+}
+
+.light-green-hover > *, .light-green-hover li > * {
+	transition: color 0.8s ease;
+}
+
+.light-green-hover > *:hover, .light-green-hover li > *:hover {
+	color: #8BC34A;
+}
+

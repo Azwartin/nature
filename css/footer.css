@@ -1,0 +1,76 @@
+.main-footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 3%;
+	color: #767676;
+	background-color: #393939;
+	padding-bottom: 50px;
+}
+
+.main-footer a {
+	color: #b6b6b6;
+}
+
+.main-footer > div {
+	width: 23%;
+}
+
+.main-footer > div >  header {
+	padding: 15px 0;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.main-footer .footer-event {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 2px solid #212121;
+}
+
+.main-footer .footer-event-date {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	width: 20%;
+}
+
+.main-footer .footer-event-date .day {
+	font-size: 25px;
+}
+
+.main-footer .footer-event-name {
+	width: 70%;
+}
+
+.main-footer .footer-news a {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.main-footer .footer-igramm-photos > a {
+	width: 23%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.main-footer .footer-useful ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+.main-footer .footer-useful li {
+	margin-bottom: 5px;
+}
+
+@media (max-width: 640px) {
+	.main-footer {
+		flex-direction: column;
+	}
+
+	.main-footer > div {
+		width: 100%;
+		margin: 5px 0;
+	}
+}

@@ -1,0 +1,46 @@
+.main-header {
+	padding: 5px 0;
+	background-color: #222222;
+}
+
+.main-header-toggle-btn {
+	display: none;
+}
+
+.main-header nav {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-header nav a {
+	text-align: center;
+	display: inline-block;
+	width: 14%;
+	color: white;
+	font-family: serif;
+	font-size: 20px;
+	padding: 12px 0;
+}
+
+@media (max-width: 640px) {
+	.main-header-toggle-btn {
+		display: block;
+		width: 50px;
+		height:50px;
+		background-image: url('../img/menu.png');
+		background-size: contain;
+		background-position: center;
+	}
+
+	.main-header nav {
+		display: none;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.main-header nav a {
+		width: 100%;
+	}
+}
